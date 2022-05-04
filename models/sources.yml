@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: SNOW
+    database: UNION_DB
+    schema: PUBLIC
+    tables:
+      - name: TB1
+      - name: TB2

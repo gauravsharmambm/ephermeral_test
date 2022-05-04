@@ -1,0 +1,17 @@
+snow_test:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: nu09383.east-us-2.azure
+
+      # User/password auth
+      user: GAURAV
+      password: Gaurav@123
+
+      role: SYSADMIN
+      database: UNION_DB
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 5
+      client_session_keep_alive: False
